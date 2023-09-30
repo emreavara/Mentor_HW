@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Uzak Git deposunu klonlayın
+git clone <uzak_depo_url>
+
+# Klonladığınız depo dizinine geçin
+cd uzak_depo
+
+# Değişikliklerinizi yapın (manuel olarak veya başka bir otomasyon işlemiyle)
+# Örneğin, dosyaları düzenleyin veya yeni dosyalar ekleyin.
+
+# Değişiklikleri takip edin (Staging Area'ya ekleyin)
+git add .
+
+# Değişiklikleri yerel depoya kaydedin (commit)
+git commit -m "Değişiklik açıklaması"
+
+# Değişiklikleri uzak depoya gönderin (push)
+git push origin <ana_dal>
+----------------------------------------
+git clone git@github.com:emreavara/Mentor_HW.git
+ cd Mentor_HW
+ git checkout -b example
+ echo "Cuma" >> gunler.js
+ git add .
+ git status
+ git commit -m "Ekle Cuma"
+ git push
+ git push --set-upstream origin example
