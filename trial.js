@@ -1,5 +1,9 @@
-const text = "This is an example sentence.";
+//const text = "This is an example sentence.";
 
-const subString = text.substring(3, 10);
+//const subString = text.substring(3, 10);
 
-console.log(subString);
+//console.log(subString);
+
+const text = "example";
+const newOne = text.replace("example", "english");
+console.log(newOne);
