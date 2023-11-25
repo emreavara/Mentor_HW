@@ -1,1 +1,1 @@
-// Today was the mentor class  it was SuperS
+// Today was the mentor class  it was Super
